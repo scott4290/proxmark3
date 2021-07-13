@@ -202,7 +202,9 @@ Discovery started
 [bluetooth]# trust aa:bb:cc:dd:ee:ff
 [bluetooth]# pair aa:bb:cc:dd:ee:ff
 [agent] Enter PIN code: 1234
-[bluetooth]# quit
+...
+Pairing successful
+ [bluetooth]# quit
 ```
 If bluetoothctl fails to pair without prompting you for a PIN code, use the remove command to remove it, turn off pairable, turn off scanning, and try the bluetoothctl commands above:
 ```[bluetooth]# pair aa:bb:cc:dd:ee:ff
